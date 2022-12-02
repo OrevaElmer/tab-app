@@ -93,12 +93,18 @@
     display: block;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) {    
     .about-content .image-card {
         width: 100%;
         margin-bottom: 20px;
     }
     .about-content .tab-container {
         width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 50px;
     }
 }
